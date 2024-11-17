@@ -182,7 +182,7 @@ ul {
 }
 
 .toggle-class {
-  display: flex !important;
+  display: none;
   position: absolute;
   top: 100%;
   left: 0;
@@ -190,6 +190,10 @@ ul {
   flex-direction: column;
   padding: 10px;
   background-color: black;
+}
+
+.show {
+  display: flex !important;
 }
 
 /* End header */
